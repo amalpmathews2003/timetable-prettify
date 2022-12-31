@@ -1,4 +1,4 @@
-import "./box.css";
+import "./Box.css";
 export default function Box({ slot, subject, color, handleClick }) {
   if (slot == "L") {
     color = "#bdbdbd";
